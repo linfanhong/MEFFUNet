@@ -1,29 +1,26 @@
 <div align="center">
-<h1 align="center">DSFormer</h1>
+<h1 align="center">MEFFUNet</h1>
 
-<h3>A Multi-Scale Efficient Feature Fusion U-Net Model for Spinal Image Segmentation![image](https://github.com/user-attachments/assets/1dd212e9-d275-4ac4-b47e-2cfeee047c7d)
+<h3>A Multi-Scale Efficient Feature Fusion U-Net Model for Spinal Image Segmentation
 </h3>
 
-[Yichu Xu](https://scholar.google.com/citations?user=CxKy4lEAAAAJ&hl=en&oi=ao)<sup>1</sup>, 
-[Di Wang](https://scholar.google.com/citations?user=3fThjewAAAAJ&hl=en)<sup>1</sup>, 
-[Lefei Zhang](https://scholar.google.com/citations?user=BLKHwNwAAAAJ&hl=en)<sup>1 *</sup>, 
-[Liangpei Zhang](https://scholar.google.com/citations?user=vzj2hcYAAAAJ&hl=en)<sup>1,2 </sup>
+[]()<sup>1</sup>, 
+[]()<sup>1 *</sup>, 
+[]()<sup>1,2 </sup>
 
-[![NN paper](https://img.shields.io/badge/NN-paper-00629B.svg)](https://www.sciencedirect.com/science/article/pii/S089360802500190X?dgcid=author1) [![arXiv paper](https://img.shields.io/badge/arXiv-paper-b31b1b.svg)](https://arxiv.org/abs/2410.03171)
 
-<sup>1</sup> Wuhan University, <sup>2</sup> Henan Academy of Sciences,  <sup>*</sup> Corresponding author
-
+School of Integrated Circuit Science and Engineering, Tianjin University of Technology, Tianjin 300384, China
 </div>
 
 
 ## 📖Overview
 
-* [**MEFFUNet**](https://arxiv.org/abs/2410.03171) is a lightweight and efficient U-Net variant tailored for spinal image segmentation, which strikes a balance between segmentation accuracy and computational efficiency through three core theoretical and architectural innovations. Extensive experiments on both MRI and CT datasets demonstrate the superior performance and generalizability of MEFFUNet, outperforming established baselines in segmentation accuracy with considerably fewer parameters.
+* [**MEFFUNet**]() is a lightweight and efficient U-Net variant tailored for spinal image segmentation, which strikes a balance between segmentation accuracy and computational efficiency through three core theoretical and architectural innovations. Extensive experiments on both MRI and CT datasets demonstrate the superior performance and generalizability of MEFFUNet, outperforming established baselines in segmentation accuracy with considerably fewer parameters.
 
 
 
 <div align="center">
-  <img src="./figures/DSFormer.png"><br><br>
+  <img src="./Figures/MEFFUNet.svg"><br><br>
 </div>
 
 ## 🚀Let's Get Started!
@@ -32,13 +29,13 @@
 
 Clone this repository and navigate to the project directory:
 ```bash
-git clone https://github.com/YichuXu/DSFormer.git
+git clone https://github.com/linfanhong/MEFFUNet.git
 cd MEFFUNet
 ```
 
 **Step 2: Environment Setup:**
 
-It is recommended to set up a conda environment and installing dependencies via pip. Use the following commands to set up your environment:
+It is recommended to set up a conda environment and install dependencies via pip. Use the following commands to set up your environment:
 
 ***Create and activate a new conda environment***
 
@@ -53,10 +50,10 @@ Our method uses python 3.8, pytorch 1.13
 
 ### `B. Data Preparation`
 
-Download HSI classification dataset from [Google Drive](https://drive.google.com/drive/folders/1iPFLdrAFUveqwCtMpf5859pQhGXN_z4J?usp=drive_link) or [Baidu Drive (百度网盘)](https://pan.baidu.com/s/1bSqq-Uv3AC5qfRmqxbMjfg?pwd=2025) and put it under the [dataset] folder. It will have the following structure: 
+Download SpineSagT2Wdataset3 and TotalSegmentator dataset from [Baidu Drive (百度网盘)](https://pan.baidu.com/s/1_N9v9UWWArPbq3h0oqhZ5Q) or [zenodo](https://zenodo.org/records/10047292) and put them under the [inputs] folder. It will have the following structure: 
 ```
 ${DATASET_ROOT}   # Dataset root directory
-├── datasets
+├── inputs
 │   │
 │   ├── pu        # Pavia University data
 │   │   ├──images
@@ -76,11 +73,11 @@ ${DATASET_ROOT}   # Dataset root directory
 
 ## 📜Reference
 
-if you find it useful for your research, please consider giving this repo a ⭐ and citing our paper! We appreciate your support！😊
+If you find it useful for your research, please consider giving this repo a ⭐ and citing our paper! We appreciate your support！😊
 ```
 @ARTICLE{Xu2025DSFormer,
   author={},
-  title={A Multi-Scale Efficient Feature Fusion U-Net Model for Spinal Image Segmentation![image](https://github.com/user-attachments/assets/083f3947-884b-4bf3-8e95-0e650fb9c52f)
+  title={A Multi-Scale Efficient Feature Fusion U-Net Model for Spinal Image Segmentation
 }, 
   journal={},
   volume = {},
