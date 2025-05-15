@@ -18,10 +18,9 @@
 
 ## 📖Overview
 
-* [**DSFormer**](https://arxiv.org/abs/2410.03171) is a novel Dual Selective Fusion
-Transformer Network  for HSI classification. It adaptively selects and fuses features from diverse
-receptive fields to achieve joint spatial-spectral context modeling, while reducing unnecessary information
-interference by focusing on the most relevant spatial-spectral tokens.  
+* [**MEFFUNet**](https://arxiv.org/abs/2410.03171) is a lightweight and efficient U-Net variant tailored for spinal image segmentation, which strikes a balance between segmentation accuracy and computational efficiency through three core theoretical and architectural innovations. Extensive experiments on both MRI and CT datasets demonstrate the superior performance and generalizability of MEFFUNet, outperforming established baselines in segmentation accuracy with considerably fewer parameters.
+
+
 
 <div align="center">
   <img src="./figures/DSFormer.png"><br><br>
